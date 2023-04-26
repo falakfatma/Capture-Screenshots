@@ -1,6 +1,10 @@
 const btn = document.querySelector('.btn')
 const screenShot = document.querySelector('.img-preview')
-
+const image =  screenShot.querySelector("img")
+// const cropper = new Cropper(image,{
+//   aspectRatio:0,
+//   viewMode:0,
+// })
 
 console.log(btn)
 
